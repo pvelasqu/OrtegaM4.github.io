@@ -1,0 +1,77 @@
+
+{% extends "grumbo/base.html"%}
+{% block body_block %}
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2><u>Class Information</u></h2> <br></br>
+      <h3>Class change to your preferred class. The starting class is a level 1 adventurer. Each class has different stat scaling, unique actives and boost your character in different ways. </h3>
+      <h3>Classes level up independently of your character up to that class' max class level. Each class level can give new stats or active effects, some permanent and some unique to the class.</h3>
+      <h3> 1 class experience is gained per battle, win or lose. .</h3>
+      <h3>Classes level up at 25 class experience</h3>
+      <h4>You can only class change once every 12 hours</h4>
+<br></br>
+</div>
+  <div class="jumbotron">
+
+
+      <h2><u>Adventurer</u></h2>
+      <h3>Your typical Grumbo Adventurer. Specializes in nothing. <br></br>However, you can gain a permanent +2 boost to POW/WIS/DEF and +1 to RES/SPD/LUK every other class level!</h3>
+      <h3>POW  B  |  WIS  B</h3>
+      <h3>DEF    B  |  RES  B</h3>
+      <h3>SPD    B  |  LUK  C</h3>
+      <br></br>
+      <h3>Max Lv: 5</h3>
+      <!-- <h3>Lv 1:  The Adventurer gets no perks at class level 1.</h3>
+      <h3>Lv 2:  Become more observant. Learn the Observation active.</h3> -->
+<br></br>
+
+      <h2><u>Warrior</u></h2>
+      <h3>Warrior packs a powerful punch but isn't the smartest about it. <br></br>Gain a permanent +2 boost to POW every class level.</h3>
+      <h3>POW  A+  |  WIS  D+</h3>
+      <h3>DEF    C+  |  RES  B</h3>
+      <h3>SPD    B  |  LUK  C</h3>
+      <h3>Max Lv: 5</h3>
+      <!-- <h3>Lv 1:  A novice Warrior only knows the Wild Swing active.</h3>
+      <h3>Lv 2:  POW +10 when classed as a Warrior.</h3> -->
+<br></br>
+      <h2><u>Rogue</u></h2>
+      <h3>The quick and slippery rogue</h3>
+      <h3>Gain a permanent +1 boost to SPD every class level.</h3>
+      <h3>POW  B-  |  WIS  B+</h3>
+      <h3>DEF    C  |  RES  A-</h3>
+      <h3>SPD    A  |  LUK  A-</h3>
+      <h3>Max Lv: 5</h3>
+      <!-- <h3>Lv 1:  The Rogue very rarely gets a second chance when losing.</h3>
+      <h3>Lv 2:  SPD +2 / LUK +2 when classed as a Rogue.</h3> -->
+<br></br>
+      <h2><u>Magician</u></h2>
+      <h3>The Magician is pretty good at card tricks</h3>
+      <h3>Gain a permanent +2 boost to WIS every class level.</h3>
+      <h3>POW  C  |  WIS  S+</h3>
+      <h3>DEF    C-  |  RES  A+</h3>
+      <h3>SPD    B  |  LUK  C</h3>
+      <h3></h3>
+      <h3>Max Lv: 5</h3>
+      <!-- <h3>Lv 1:  The Magician can Outsmart his enemies</h3>
+      <h3>Lv 2:  WIS +15 when classed as a Magician.</h3> -->
+<br></br>
+      <h2><u>Cleric</u></h2>
+      <h3>The highly resistant Cleric. Gain a permanent +1 boost to RES every class level.</h3>
+      <h3>POW  D+  |  WIS  A</h3>
+      <h3>DEF  D+  |  RES  S++</h3>
+      <h3>SPD  B+  |  LUK  C</h3>
+      <br></br>
+      <h3>Max Lv:  5</h3>
+<br></br>
+      <h2><u>Knight</u></h2>
+      <h3>The Knight is a sturdy fellow. Gain a permanent +2 boost to DEF every class level.</h3>
+      <h3>POW  C+  |  WIS  D</h3>
+      <h3>DEF    A+  |  RES  D-</h3>
+      <h3>SPD    F  |  LUK  C</h3>
+      <br></br>
+      <h3>Max Lv:  5</h3>
+
+    </div>
+  </div>
+  {% endblock %}
